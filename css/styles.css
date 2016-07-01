@@ -65,3 +65,76 @@ table {
   clear: both;
   *zoom: 1;
 }
+
+/* STARTS HERE */
+
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+  padding: 15px 0;
+}
+
+#container {
+  margin: 0 auto;
+  border: 1px solid #663300;
+  width: 602px;
+  height: 602px;
+}
+
+.cells {
+  background: #759A69;
+  outline: 1px solid #BBB;
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+
+.snake {
+  background: yellow;
+}
+
+.food {
+  background: #01FF02;
+}
+
+/* ASIDE */
+
+body {
+  position: relative;
+  font-family: arial, sans-serif;
+}
+
+aside {
+  position: absolute;
+  width: 120px;
+  top: 100px;
+  right: 15%;
+  text-align: left;
+}
+
+h3 {
+  padding: 10px 0 30px 0;
+  font-size: 1.5em;
+}
+
+#score, #level {
+  font-size: 2em;
+  padding-bottom: 25px;
+}
+
+#play {
+  font-size: 2em;
+  border: 1px solid #AAA;
+  width: 120px;
+  height: 60px;
+  color: blue;
+  background: yellow;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+#play:hover {
+  color: yellow;
+  background: blue;
+}
